@@ -4,9 +4,10 @@ import "fmt"
 
 // persona es una estructura
 type Persona struct {
-	nombre string
-	apellido string
-	edad uint8  
+	nombre 		string
+	apellido 	string
+	edad 		uint8  
+	emails 		[]string
 }
 
 func main() {
@@ -27,9 +28,16 @@ func main() {
 		nombre: 	"Alejando",
 		apellido: 	"Páez",
 		edad:	 	27,
+		emails: 	[]string{"email1@mail.com", "email2@mail.com"},
 	}
 
-	persona2 := Persona {"Pablo","Smith",30}
+	emails_persona2 := []string{"email1@mail.com", "email2@mail.com"}
+	persona2 := Persona {
+		"Pablo",
+		"Smith",
+		30,
+		emails_persona2,
+	}
 
 
 	personas := []Persona {

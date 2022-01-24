@@ -1,8 +1,8 @@
-package main
+package variable
 
 import "fmt"
 
-func main() {
+func Vars() {
 	nombre, apellido := "Jose Breiner", "Pai Gonzáles"
 	nombre, edad := "Juan", 20
 

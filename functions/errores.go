@@ -1,4 +1,4 @@
-package main
+package functions
 
 import (
 	"errors"
@@ -6,7 +6,7 @@ import (
 )
 
 
-func main() {
+func ErrFunc() {
 	resultado,err := division(100,0) 
 	
 	if err == nil {

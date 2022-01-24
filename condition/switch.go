@@ -1,8 +1,8 @@
-package main
+package condition
 
 import "fmt"
 
-func main() {
+func SwitchCondition() {
 
 
 	/*

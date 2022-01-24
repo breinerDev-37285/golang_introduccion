@@ -1,11 +1,11 @@
-package main
+package loops
 
 import (
 	"fmt"
 	"strconv"
 )
 
-func main() {
+func ForClassic() {
 
 	/* 	
 		var c string = ""

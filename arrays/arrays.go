@@ -1,8 +1,8 @@
-package main
+package arrays
 
 import "fmt"
 
-func main() {
+func Arrays() {
 	var nombres [3]string = [3]string{
 		"Juan", 
 		"Andres", 

@@ -1,4 +1,4 @@
-package main
+package arrays
 
 import "fmt"
 
@@ -10,7 +10,7 @@ type Persona struct {
 	emails 		[]string
 }
 
-func main() {
+func ArraysWithStructs() {
 	/* 
 
 		array de objetos 

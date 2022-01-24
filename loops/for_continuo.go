@@ -1,8 +1,8 @@
-package main
+package loops
 
 import "fmt"
 
-func main() {
+func ForContinue() {
 
 	// funciona igual que el ciclo while
 

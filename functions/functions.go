@@ -1,9 +1,9 @@
-package main
+package functions
 
 import "fmt"
 
-func main() {
-	saludar("Breiner",28)
+func MainFunc() {
+	saludarf("Breiner",28)
 
 
 	var saludo string = saludo2("Breiner")
@@ -19,7 +19,7 @@ func main() {
 	println(max, min, info)
 }
 
-func saludar(nombre string, edad uint8){
+func saludarf(nombre string, edad uint8){
 	fmt.Printf("Hola %s tienes %d años\n", nombre, edad)
 }
 
@@ -31,7 +31,7 @@ func suma(a, b uint16) uint16 {
 	return a + b
 }
 
-func max_min(numbers []uint8) (max, min uint8, info string) {
+func max_min_d(numbers []uint8) (max, min uint8, info string) {
 
 	info = "esto es un string"
 

@@ -1,6 +1,6 @@
-package main
+package loops
 
-func main() {
+func ForForever() {
 
 	// se ejecuta indefinidamente, equivalente a while(true)
 

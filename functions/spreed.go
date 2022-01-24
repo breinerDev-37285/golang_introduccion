@@ -1,8 +1,8 @@
-package main
+package functions
 
 import "fmt"
 
-func main() {
+func SpreedFunc() {
 	saludar(20,"Breiner", "Adrian", "Juan", "Pedro")	
 }
 

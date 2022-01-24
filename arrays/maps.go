@@ -1,8 +1,8 @@
-package main
+package arrays
 
 import "fmt"
 
-func main() {
+func Maps() {
 	// make(tipo de dato)
 	// idiomas[es] = "español"
 

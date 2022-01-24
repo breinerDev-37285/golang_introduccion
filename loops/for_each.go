@@ -1,7 +1,7 @@
-package main
+package loops
 
 
-func main() {
+func ForEach() {
 
 	personas := []string{"Andres", "Michael", "Jordan", "Carl"}
 

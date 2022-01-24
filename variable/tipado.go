@@ -1,8 +1,8 @@
-package main
+package variable
 
 import "fmt"
 
-func main() {
+func Formats() {
 	const a int = 10345345345
 	const b int8 = 34
 	const isTall bool = false

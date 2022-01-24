@@ -1,6 +1,6 @@
-package main
+package functions
 
-func main() {
+func FuncReturn() {
 
 	n := [] uint8{5,8,6,9,45,255}
 	max, min, info := max_min(n) 

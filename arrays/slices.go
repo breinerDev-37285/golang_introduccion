@@ -1,8 +1,8 @@
-package main
+package arrays
 
 import "fmt"
 
-func main () {
+func Slices () {
 	
 	/*
 		arrays de tamaño variable  - listas

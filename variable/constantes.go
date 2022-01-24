@@ -1,8 +1,8 @@
-package main
+package variable
 
 import "fmt"
 
-func main() {
+func Constants() {
 	const pi float32 = 3.141592
 	const edad uint8 = 26
 

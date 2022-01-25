@@ -5,6 +5,6 @@ package poo
 	se definen los metodos que heredan las estructuras
 */
 
-type Figure interface {
+type IFigure interface {
 	Area() float64
 }

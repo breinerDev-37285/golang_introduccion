@@ -12,7 +12,6 @@ import "math"
 */
 
 
-
 func (c *Circle) Area() float64 {
 	return c.Radio * math.Pi
 }
@@ -22,10 +21,12 @@ func (c *Rectangle) Area() float64 {
 }
 
 
+/*
+  	simulación de una clase donde todas las estructuras hereden la función area
+	para implementar una interfaz no se pueden pasar como argumento un puntero
+*/
 
-// simulación de una clase donde todas las estructuras hereden la función area
-
-func SumAllAreas( figs ...Figure ) float64{
+func SumAllAreas( figs ...IFigure ) float64{
 	area_total := 0.0
 
 	for _, v:= range figs {

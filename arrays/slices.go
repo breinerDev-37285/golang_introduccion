@@ -19,13 +19,10 @@ func Slices () {
 	var nombres []string 
 
 	nombres = append(nombres, "Andres")
-	nombres = append(nombres, "Carlos")
-	nombres = append(nombres, "Adrian")
-	nombres = append(nombres, "Daniel")
-	nombres = append(nombres, "Michelle")
-	nombres = append(nombres, "Michael")
-	nombres = append(nombres, "Breiner")
 
+
+	/*se pueden concatenar multiples appends con una sola llamada*/
+	nombres = append(nombres, "Carlos", "Adrian", "Daniel", "Michelle", "Michael", "Breiner")
 
 	fmt.Printf("%s, size=%d, capacity=%d\n",nombres,len(nombres), cap(nombres))
 

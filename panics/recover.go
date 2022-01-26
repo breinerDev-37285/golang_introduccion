@@ -19,7 +19,6 @@ func F(i uint8){
 	fmt.Println("llamando a g() ")
 	g(i)
 
-	fmt.Println("cool, se recupero")
 }
 
 func g(i uint8) {

@@ -1,7 +1,8 @@
 package main
 
 import (
-	"introduccion/panics"
+	"fmt"
+	"introduccion/concurrency"
 )
 
 /*
@@ -38,7 +39,17 @@ func main(){
 }
 */
 
-func main() {
+/* func main() {
 	// panics.Division(4,0)
 	panics.F(4)
+} */
+
+
+func main(){
+	var h string
+	go concurrency.ShowNumbers()
+
+	fmt.Print("Digita algo: ")
+	fmt.Scan(&h)
+	fmt.Println("Digistaste ", h)
 }
